@@ -113,3 +113,7 @@ outputs:
     - HTML
     - RSS
     - JSON 
+
+# URL 结构设置
+permalinks:
+  posts: /blog/:year/:month/:title/ 
