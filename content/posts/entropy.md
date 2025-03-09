@@ -1,7 +1,8 @@
 ---
 title: "Entropy"
 date: 2025-03-09T22:00:47+08:00
-draft: true
+draft: false
+math: true
 ---
 
 ## 我们如何度量信息？

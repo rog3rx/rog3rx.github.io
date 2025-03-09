@@ -22,6 +22,9 @@ params:
   DateFormat: "2006年01月02日"
   defaultTheme: auto
   disableThemeToggle: false
+  
+  # 启用全站数学公式支持
+  math: true
 
   ShowReadingTime: true
   ShowShareButtons: true
