@@ -2,6 +2,7 @@ baseURL: "https://rog3rx.github.io/"
 title: "我的博客"
 paginate: 5
 theme: PaperMod
+languageCode: "zh-cn"
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -51,7 +52,7 @@ params:
     iconHeight: 35
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "rog3rx的博客"
     subtitle: "欢迎来到我的个人博客"
     imageUrl: "/images/profile.jpg"
@@ -63,6 +64,12 @@ params:
         url: posts
       - name: 标签
         url: tags
+
+  # 主页文章列表设置
+  homeInfoParams:
+    Title: "欢迎来到我的博客 👋"
+    Content: >
+      这是我的个人博客，记录我的学习和生活。
 
   socialIcons:
     - name: github
